@@ -1,0 +1,145 @@
+{
+    "brands": {
+        "org2": {
+            "brands": [
+                {
+                    "logo": {
+                        "ref": "http://purenintendo.com/wp-content/uploads/2014/11/nintendo-logo.jpg"
+                    },
+                    "displayName": "Nintendo",
+                    "alias": "Nintendo of America",
+                    "description": "Some sample description.",
+                    "brandingCode": "247cb0d8bc284852830856b9c82614d1",
+                    "brandingStatus": "PRODUCTION",
+                    "sandboxCallbackUrl": "http://sandbox.nintendo.com",
+                    "productionCallbackUrl": "http://www.nintendo.com",
+                    "channelCode": "PALM"
+                },
+                {
+                    "logo": {
+                        "ref": "http://content.hollywire.com/sites/default/files/2015/07/16/waltdisneylogo.jpg"
+                    },
+                    "displayName": "Disney, Inc.",
+                    "alias": "Disney World",
+                    "description": "Here is a description",
+                    "brandingCode": "91846f2f8f6348ee81d3ede32de0e379",
+                    "brandingStatus": "PRODUCTION_SANDBOX",
+                    "sandboxCallbackUrl": "http://sandbox.disney.com",
+                    "productionCallbackUrl": "http://www.disney.com",
+                    "channelCode": "ANDROID"
+                },
+                {
+                    "logo": {
+                        "ref": "https://vignette.wikia.nocookie.net/lego/images/2/2d/LEGO_logo.jpg/revision/latest?cb=20130601154044"
+                    },
+                    "displayName": "LEGO Group",
+                    "alias": "LEGO",
+                    "description": "Brick by Brick",
+                    "brandingCode": "81d3ede32de0e37991846f2f8f6348ee",
+                    "brandingStatus": "PRODUCTION_SANDBOX",
+                    "sandboxCallbackUrl": "http://sandbox.lego.com",
+                    "productionCallbackUrl": "http://www.lego.com",
+                    "channelCode": "IOS"
+                }
+            ]
+        },
+        "childOrgA": {
+            "brands": [
+                {
+                    "logo": {
+                        "ref": "https://i.pinimg.com/736x/85/0b/d3/850bd3e6e82be4f4208b0ba99edeb96b--free-company-logo-logo-communication.jpg"
+                    },
+                    "displayName": "McDonalds, Inc.",
+                    "alias": "McDonalds",
+                    "description": "Billions and Billions Served",
+                    "brandingCode": "e953138fcfee46d89ba3197047248b86",
+                    "brandingStatus": "PRODUCTION_SANDBOX",
+                    "sandboxCallbackUrl": "llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogochuchaf.org.uk",
+                    "productionCallbackUrl": "productionCallback1",
+                    "channelCode": "IOS"
+                }
+            ]
+        }
+    },
+    "channels": [
+            {
+                "channelCode": "WEB",
+                "channelDescription": "Web channel",
+                "defaultChannelSwitch": false
+            },
+            {
+                "channelCode": "IOS",
+                "channelDescription": "iOS devices",
+                "defaultChannelSwitch": false
+            },
+            {
+                "channelCode": "ANDROID",
+                "channelDescription": "Google Android devices",
+                "defaultChannelSwitch": false
+            }
+    ],
+    "originUrls": {
+        "originUrls": [
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0000",
+                "originUrlAddress": "http://www.bestbuy.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "1",
+                "originUrlAddress": "http://www.smoothingking.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c0015892219a4f0001",
+                "originUrlAddress": "http://www.target.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157584ac2b601584f4f11640002",
+                "originUrlAddress": "www.0012b.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d01575850776d0158546068dc0002",
+                "originUrlAddress": "www.6threcordFINALVERISON.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0005",
+                "originUrlAddress": "http://sandbox.bestbuy.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0006",
+                "originUrlAddress": "http://extra01.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0007",
+                "originUrlAddress": "http://extra02.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0008",
+                "originUrlAddress": "http://extra03.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0009",
+                "originUrlAddress": "http://extra04.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0010",
+                "originUrlAddress": "http://extra05.com",
+                "orgId": "org2"
+            },
+            {
+                "originUrlId": "8a1d0157588cd8c00158922014ef0011",
+                "originUrlAddress": "http://extra06.com",
+                "orgId": "org2"
+            }
+        ]
+    }
+}

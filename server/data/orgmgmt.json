@@ -1,0 +1,270 @@
+{
+    "orgData": {
+        "address": {
+            "address1": "31 Spooner Street",
+            "address2": "",
+            "city": "Quahog",
+            "countrySubdivision": "US-RI",
+            "countryOfIncorporation": "US",
+            "zipCode": "63366"
+        },
+        "merchant": {
+            "businessType": "10",
+            "pspList": [
+                {
+                    "organizationId": "ca51a92555d94d7ba9d0549436afee47",
+                    "pspMerchantId": "2"
+                },
+                {
+                    "organizationId": "ghj67ga92555d94d7ba9d0549436afee47",
+                    "pspMerchantId": "1"
+                },
+                {
+                    "organizationId": "123",
+                    "pspMerchantId": "3"
+                }
+            ]
+        },
+        "organizationExtracted": {
+            "legalBusinessName": "Grey Spade LLC",
+            "website": "website.com"
+        },
+        "organizationProductionAccessRequestInfo": {
+            "acquirerBankName": "bankname",
+            "acquirerBankId": "123",
+            "merchantAcquirerId": "123456",
+            "organizationContactInformation": {
+                "contactFirstName": "first",
+                "contactLastName": "last",
+                "contactEmail": "email@email.com"
+            }
+        },
+        "phone": {
+            "countryCode": "US+1",
+            "number": "1234567890",
+            "ext": "11"
+        },
+        "PCIcheckboxModel": true,
+        "checkboxModel": true,
+        "serviceProvider": {
+            "visible": true,
+            "pspOptIn": true
+        },
+        "organizationDzAccount": {
+            "dzOrgUserName": "MCWknisjhwridupvakns",
+            "orgId": "org2",
+            "appId": 271523
+        },
+        "sandboxClientId": "XR9vfA-T7uj2WkEoU8gilzPP1vBO-WpY2KM73gAq0ecaade5",
+        "fbuMerchant": false,
+        "profileCompleted": false,
+        "countryOfIncorporationAustralia": false,
+        "orgTypeText": "MERCHANT",
+        "organizationClientList": [
+            {
+                "orgClientId": "XR9vfA-T7uj2WkEoU8gilzPP1vBO-WpY2KM73gAq0ecaade5",
+                "orgId": "org2",
+                "environment": "SANDBOX"
+            }
+        ],
+        "testFlag": false,
+        "pciCompliant": false
+    },
+    "psp": {
+        "serviceProviders": [
+            {
+                "organizationId": "98ha92555d94d7ba9d0549436afee47",
+                "pushEnabled": true,
+                "legalBusinessName": "PSP1"
+            },
+            {
+                "organizationId": "75430e58bf7c40718d63530dfa5f3e4f",
+                "pushEnabled": true,
+                "legalBusinessName": "PSP2"
+            },
+            {
+                "organizationId": "234jh58bf7c40718d63530dfa5f3e4f",
+                "pushEnabled": false,
+                "legalBusinessName": "PSP3"
+            },
+            {
+                "organizationId": "ca51a92555d94d7ba9d0549436afee47",
+                "pushEnabled": true,
+                "legalBusinessName": "PSP is Push-Enabled"
+            },
+            {
+                "organizationId": "ghj67ga92555d94d7ba9d0549436afee47",
+                "pushEnabled": false,
+                "legalBusinessName": "PSP is not Push-Enabled"
+            },
+            {
+                "organizationId": "123",
+                "pushEnabled": true,
+                "legalBusinessName": "AAA"
+            }
+        ]
+    },
+    "initial-integration-info": {
+        "checkoutId": "7261be8c30264213b99cbd891bed6d6b",
+        "originUrl": "https://www.OriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEquals4000CharsOriginEqual4000.com",
+        "sandboxKey": "4157c233fa3b490a83bc178d01fedb200000000000000000",
+        "sandboxAlias": "defaultSandboxKey",
+        "sandboxPasscode": "v3kfSVeSb0RhjS75GKBW",
+        "sandboxCallbackUrl": "https://www.CheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredentials4000CharCheckoutCredent.com",
+        "legalBusinessName": "Grey Spade LLC",
+        "prodExpressCheckoutAllowed": true
+    },
+    "allowed-card-types": {
+        "orgId": "org2",
+        "allowedCardTypes": [
+            "MASTERCARD"
+        ]
+    },
+    "provisionedMerchants": {
+        "provisionedMerchants": [
+            {
+                "orgId": "407715eb909c4c779920b50cd584a0d1",
+                "merchantName": "Barry K. Reed",
+                "spMerchantId": "HouseWork062017"
+            }
+        ],
+        "totalPages": 1,
+        "totalElements": 1
+    },
+    "details": {
+        "organization": {
+            "organizationFbuMerchant": {
+                "fbuMerchantId": 1875266,
+                "spMerchantId": "HouseWork062017"
+            },
+            "sandboxClientId": "",
+            "countryOfIncorporationAustralia": false,
+            "profileCompleted": false,
+            "fbuMerchant": true,
+            "address": {
+                "city": "Oklahoma City",
+                "zipCode": "73109",
+                "countryOfIncorporation": "US",
+                "countrySubdivision": "US-OK",
+                "address1": "3783 Cody Ridge Road",
+                "address2": "#AB-101"
+            },
+            "phone": {
+                "countryCode": "1",
+                "number": "5805047048"
+            },
+            "orgTypeText": "MERCHANT",
+            "organizationExtracted": {
+                "doingBusinessAsName": "HouseWork LLC",
+                "legalBusinessName": "Barry K. Reed",
+                "taxId": "523125478",
+                "website": "https://CallbackandOriginURLs.com"
+            },
+            "organizationClientList": [],
+            "testFlag": false,
+            "pciCompliant": false
+        },
+        "acquirerRelationships": [
+            {
+                "merchantAcqCode": "cdf397b21e03421fae28d5a4f4087550",
+                "status": {
+                    "status": "ACTIVE"
+                },
+                "assignedMerchantId": "HouseWork062017",
+                "unknownAcqFlag": false,
+                "acquirerId": 434677,
+                "currencyCodes": [
+                    {
+                        "currencyCode": "ALL"
+                    }
+                ],
+                "readonly": false,
+                "pendingMerchantAcquirerUpdates": [],
+                "passwordProvided": true,
+                "acquirerName": "MerchantACS HDFC - 434677",
+                "cardBrandType": "VISA",
+                "advancedCheckoutEnabled": true
+            },
+            {
+                "merchantAcqCode": "a4beb35d8a5d495b89b72a19f7f7347b",
+                "status": {
+                    "status": "ACTIVE"
+                },
+                "assignedMerchantId": "HouseWork062017",
+                "unknownAcqFlag": false,
+                "acquirerId": 531615,
+                "currencyCodes": [
+                    {
+                        "currencyCode": "ALL"
+                    }
+                ],
+                "readonly": false,
+                "pendingMerchantAcquirerUpdates": [],
+                "passwordProvided": true,
+                "acquirerName": "CYBS AIB MasterCard Valfac Test - 531615",
+                "cardBrandType": "MASTERCARD",
+                "advancedCheckoutEnabled": true
+            }
+        ],
+        "advancedCheckouts": [
+            {
+                "orgId": "407715eb909c4c779920b50cd584a0d1",
+                "cardBrandType": "VISA",
+                "advancedCheckoutEnabled": true
+            },
+            {
+                "orgId": "407715eb909c4c779920b50cd584a0d1",
+                "cardBrandType": "MASTERCARD",
+                "advancedCheckoutEnabled": true
+            }
+        ],
+        "brands": [
+            {
+                "logo": {
+                    "ref": "http://www.mastercard.us/_globalAssets/img/nav/navl_logo_mastercardcom.png"
+                },
+                "displayName": "5% Off Today Only",
+                "alias": "HouseW CB",
+                "brandingCode": "fa24b1d7dc654fd782b9d591a0774bb8",
+                "brandingStatus": "PRODUCTION_SANDBOX",
+                "sandboxCallbackUrl": "http://ech-0a9d847f.corp.mastercard.test/callback",
+                "productionCallbackUrl": "http://ech-0a9d847f.corp.mastercard.test/callback"
+            }
+        ],
+        "originUrls": [
+            {
+                "originUrlId": "8a1d79015cda107a015d1d5565de0000",
+                "originUrlAddress": "http://Yahoo.com",
+                "orgId": "407715eb909c4c779920b50cd584a0d1"
+            },
+            {
+                "originUrlId": "8a1d79015cda107a015d1d5565f40001",
+                "originUrlAddress": "https://WebMD.com",
+                "orgId": "407715eb909c4c779920b50cd584a0d1"
+            },
+            {
+                "originUrlId": "8a1d79015cda107a015d1d5565fa0002",
+                "originUrlAddress": "https://google.com",
+                "orgId": "407715eb909c4c779920b50cd584a0d1"
+            }
+        ],
+        "loyaltyPrograms": [
+            {
+                "code": "HouseW00",
+                "name": "HouseW RP",
+                "logo": {
+                    "ref": "http://www.mastercard.us/_globalAssets/img/nav/navl_logo_mastercardcom.png"
+                },
+                "test": false
+            }
+        ]
+    },
+    "settings": {
+        "orgId": "org2",
+        "suppressShippingFlag": false,
+        "cvc2Flag": false
+    },
+    "production-access-requests": {
+        "prodExpressCheckoutAllowed": true
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "portalNotifications": [{
+        "portalNotificationId": 44,
+        "notificationText": "This is an example Admin Portal Notification"
+    }]
+}

@@ -1,0 +1,103 @@
+{
+    "projects": {
+        "fbuProjects": [
+            {
+                "projectId": 392,
+                "orgId": "06721a09b01f4f3e9df234836a6ab4e0",
+                "projectName": "4th Time",
+                "fileCount": 0,
+                "createDate": 1474436559000
+            },
+            {
+                "projectId": 390,
+                "orgId": "06721a09b01f4f3e9df234836a6ab4e0",
+                "projectName": "3rd Time",
+                "fileCount": 0,
+                "createDate": 1474436157000
+            },
+            {
+                "projectId": 388,
+                "orgId": "06721a09b01f4f3e9df234836a6ab4e0",
+                "projectName": "spTradewell",
+                "fileCount": 7,
+                "createDate": 1474435546000
+            }
+        ]
+    },
+    "files": {
+        "fileDetailsResponseList": [
+            {
+                "fileName": "spTradewell_Currency.xml",
+                "fileId": "1000002228",
+                "uploadDate": 1499797053000,
+                "uploadedBy": "Last, First",
+                "noOfEntries": 1,
+                "noOfFailedEntries": 0,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002228"
+            },
+            {
+                "fileName": "spTradewell_Currency.xml",
+                "fileId": "1000002226",
+                "uploadDate": 1499796969000,
+                "uploadedBy": "Last, First",
+                "noOfEntries": 1,
+                "noOfFailedEntries": 1,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002226"
+            },
+            {
+                "fileName": "spDelFarm_AT_merHappyWorld_Currency.xml",
+                "fileId": "1000002224",
+                "uploadDate": 1499796841000,
+                "uploadedBy": "Last, First",
+                "noOfEntries": 1,
+                "noOfFailedEntries": 1,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002224"
+            },
+            {
+                "fileName": "1_HUMMARA_1000.xml",
+                "fileId": "1000002222",
+                "uploadDate": 1499796727000,
+                "uploadedBy": "Last, First",
+                "noOfEntries": 1000,
+                "noOfFailedEntries": 0,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002222"
+            },
+            {
+                "fileName": "Ami_Tomar_1000.xml",
+                "fileId": "1000002220",
+                "uploadDate": 1499796565000,
+                "uploadedBy": "Last, First",
+                "noOfEntries": 1000,
+                "noOfFailedEntries": 0,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002220"
+            },
+            {
+                "fileName": "Orpo_Orimpo_1000.xml",
+                "fileId": "1000002218",
+                "uploadDate": 1499796458000,
+                "uploadedBy": "Last, First",
+                "noOfEntries": 1000,
+                "noOfFailedEntries": 0,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002218"
+            },
+            {
+                "fileName": "Shona_Bondhu_1000.xml",
+                "fileId": "",
+                "uploadDate": 1499796335000,
+                "uploadedBy": "data migration",
+                "noOfEntries": 1000,
+                "noOfFailedEntries": 0,
+                "status": "PROCESSING_DONE",
+                "resultsFileId": "1000002216"
+            }
+        ],
+        "totalPages": 1,
+        "totalElements": 7
+    }
+}
