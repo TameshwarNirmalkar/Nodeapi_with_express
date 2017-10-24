@@ -1,0 +1,17 @@
+syntax blob
+.tmp
+.sass-cache
+.idea
+.svn
+.grunt
+_specs.html
+node_modules
+coverage
+platoReport
+/dist
+dist.zip
+/builds
+client/styles/css/main.css
+client/styles/css/main.css.map
+.vscode
+settings.json
