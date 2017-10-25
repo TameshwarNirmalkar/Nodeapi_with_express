@@ -12,7 +12,8 @@
     "serve": "node_modules/.bin/ gulp serve",
     "build": "node_modules/.bin/ gulp build:dist",
     "serve:dist": "node_modules/.bin/ gulp serve:dist",
-    "test": "node_modules/.bin/ gulp test"
+    "test": "node_modules/.bin/ gulp test",
+    "expser": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
