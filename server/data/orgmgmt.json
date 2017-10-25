@@ -10,8 +10,7 @@
         },
         "merchant": {
             "businessType": "10",
-            "pspList": [
-                {
+            "pspList": [{
                     "organizationId": "ca51a92555d94d7ba9d0549436afee47",
                     "pspMerchantId": "2"
                 },
@@ -60,19 +59,16 @@
         "profileCompleted": false,
         "countryOfIncorporationAustralia": false,
         "orgTypeText": "MERCHANT",
-        "organizationClientList": [
-            {
-                "orgClientId": "XR9vfA-T7uj2WkEoU8gilzPP1vBO-WpY2KM73gAq0ecaade5",
-                "orgId": "org2",
-                "environment": "SANDBOX"
-            }
-        ],
+        "organizationClientList": [{
+            "orgClientId": "XR9vfA-T7uj2WkEoU8gilzPP1vBO-WpY2KM73gAq0ecaade5",
+            "orgId": "org2",
+            "environment": "SANDBOX"
+        }],
         "testFlag": false,
         "pciCompliant": false
     },
     "psp": {
-        "serviceProviders": [
-            {
+        "serviceProviders": [{
                 "organizationId": "98ha92555d94d7ba9d0549436afee47",
                 "pushEnabled": true,
                 "legalBusinessName": "PSP1"
@@ -121,13 +117,11 @@
         ]
     },
     "provisionedMerchants": {
-        "provisionedMerchants": [
-            {
-                "orgId": "407715eb909c4c779920b50cd584a0d1",
-                "merchantName": "Barry K. Reed",
-                "spMerchantId": "HouseWork062017"
-            }
-        ],
+        "provisionedMerchants": [{
+            "orgId": "407715eb909c4c779920b50cd584a0d1",
+            "merchantName": "Barry K. Reed",
+            "spMerchantId": "HouseWork062017"
+        }],
         "totalPages": 1,
         "totalElements": 1
     },
@@ -164,8 +158,7 @@
             "testFlag": false,
             "pciCompliant": false
         },
-        "acquirerRelationships": [
-            {
+        "acquirerRelationships": [{
                 "merchantAcqCode": "cdf397b21e03421fae28d5a4f4087550",
                 "status": {
                     "status": "ACTIVE"
@@ -173,11 +166,9 @@
                 "assignedMerchantId": "HouseWork062017",
                 "unknownAcqFlag": false,
                 "acquirerId": 434677,
-                "currencyCodes": [
-                    {
-                        "currencyCode": "ALL"
-                    }
-                ],
+                "currencyCodes": [{
+                    "currencyCode": "ALL"
+                }],
                 "readonly": false,
                 "pendingMerchantAcquirerUpdates": [],
                 "passwordProvided": true,
@@ -193,11 +184,9 @@
                 "assignedMerchantId": "HouseWork062017",
                 "unknownAcqFlag": false,
                 "acquirerId": 531615,
-                "currencyCodes": [
-                    {
-                        "currencyCode": "ALL"
-                    }
-                ],
+                "currencyCodes": [{
+                    "currencyCode": "ALL"
+                }],
                 "readonly": false,
                 "pendingMerchantAcquirerUpdates": [],
                 "passwordProvided": true,
@@ -206,8 +195,7 @@
                 "advancedCheckoutEnabled": true
             }
         ],
-        "advancedCheckouts": [
-            {
+        "advancedCheckouts": [{
                 "orgId": "407715eb909c4c779920b50cd584a0d1",
                 "cardBrandType": "VISA",
                 "advancedCheckoutEnabled": true
@@ -218,21 +206,18 @@
                 "advancedCheckoutEnabled": true
             }
         ],
-        "brands": [
-            {
-                "logo": {
-                    "ref": "http://www.mastercard.us/_globalAssets/img/nav/navl_logo_mastercardcom.png"
-                },
-                "displayName": "5% Off Today Only",
-                "alias": "HouseW CB",
-                "brandingCode": "fa24b1d7dc654fd782b9d591a0774bb8",
-                "brandingStatus": "PRODUCTION_SANDBOX",
-                "sandboxCallbackUrl": "http://ech-0a9d847f.corp.mastercard.test/callback",
-                "productionCallbackUrl": "http://ech-0a9d847f.corp.mastercard.test/callback"
-            }
-        ],
-        "originUrls": [
-            {
+        "brands": [{
+            "logo": {
+                "ref": "http://www.mastercard.us/_globalAssets/img/nav/navl_logo_mastercardcom.png"
+            },
+            "displayName": "5% Off Today Only",
+            "alias": "HouseW CB",
+            "brandingCode": "fa24b1d7dc654fd782b9d591a0774bb8",
+            "brandingStatus": "PRODUCTION_SANDBOX",
+            "sandboxCallbackUrl": "http://ech-0a9d847f.corp.mastercard.test/callback",
+            "productionCallbackUrl": "http://ech-0a9d847f.corp.mastercard.test/callback"
+        }],
+        "originUrls": [{
                 "originUrlId": "8a1d79015cda107a015d1d5565de0000",
                 "originUrlAddress": "http://Yahoo.com",
                 "orgId": "407715eb909c4c779920b50cd584a0d1"
@@ -248,16 +233,14 @@
                 "orgId": "407715eb909c4c779920b50cd584a0d1"
             }
         ],
-        "loyaltyPrograms": [
-            {
-                "code": "HouseW00",
-                "name": "HouseW RP",
-                "logo": {
-                    "ref": "http://www.mastercard.us/_globalAssets/img/nav/navl_logo_mastercardcom.png"
-                },
-                "test": false
-            }
-        ]
+        "loyaltyPrograms": [{
+            "code": "HouseW00",
+            "name": "HouseW RP",
+            "logo": {
+                "ref": "http://www.mastercard.us/_globalAssets/img/nav/navl_logo_mastercardcom.png"
+            },
+            "test": false
+        }]
     },
     "settings": {
         "orgId": "org2",

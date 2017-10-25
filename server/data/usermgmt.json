@@ -1,7 +1,6 @@
 {
     "securityQuestionsObject": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "question": "In what town or city was your mother born?",
                 "locale": "en_US",
                 "questionId": "1"
@@ -74,8 +73,7 @@
         ]
     },
     "userAlias1": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 0,
                 "referenceSecurityQuestionId": 0,
                 "question": "In what town or city was your mother born?",
@@ -88,13 +86,12 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "USERLDAPIDaaaaaaaaaaaa1234567890"
 
     },
     "userAlias2": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 2,
                 "referenceSecurityQuestionId": 2,
                 "question": "What is your eldest sibling's middle name?",
@@ -107,12 +104,11 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "USERLDAPIDbbbbbbbbbbbb1234567890"
     },
     "userAlias3": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 4,
                 "referenceSecurityQuestionId": 4,
                 "question": "In what town or city was your mother born?",
@@ -125,12 +121,11 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "USERLDAPIDcccccccccccc1234567890"
     },
     "expired": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 4,
                 "referenceSecurityQuestionId": 4,
                 "question": "In what town or city was your mother born?",
@@ -143,12 +138,11 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "expired"
     },
     "locked": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 4,
                 "referenceSecurityQuestionId": 4,
                 "question": "In what town or city was your mother born?",
@@ -161,12 +155,11 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "locked"
     },
     "failed": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 4,
                 "referenceSecurityQuestionId": 4,
                 "question": "In what town or city was your mother born?",
@@ -179,12 +172,11 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "failed"
     },
     "incomplete": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 4,
                 "referenceSecurityQuestionId": 4,
                 "question": "In what town or city was your mother born?",
@@ -197,12 +189,11 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "incomplete"
     },
     "fake": {
-        "securityQuestions": [
-            {
+        "securityQuestions": [{
                 "securityQuestionId": 6,
                 "referenceSecurityQuestionId": 6,
                 "question": "In what city or town did your mother and father meet?",
@@ -215,7 +206,7 @@
                 "locale": "en_US"
             }
         ],
-        "nonce":"2c906dd0569e167e01569e209c430000",
+        "nonce": "2c906dd0569e167e01569e209c430000",
         "ldapId": "FAKELDAPIDxxxxxxxxxxxx0987654321"
     },
     "correctAnswers": {
@@ -223,13 +214,11 @@
         "tempPassword": "1234"
     },
     "incorrectAnswers": {
-        "error": [
-            {
-                "code": "400",
-                "field": "Security Answers invalid",
-                "message": "Bad Request"
-            }
-        ],
+        "error": [{
+            "code": "400",
+            "field": "Security Answers invalid",
+            "message": "Bad Request"
+        }],
         "code": "400",
         "message": "Bad Request"
     }

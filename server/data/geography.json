@@ -1,7 +1,6 @@
 {
     "countries": {
-        "countries": [
-            {
+        "countries": [{
                 "name": "Australia",
                 "alpha2": "AU",
                 "alpha3": "AUS",
@@ -9,8 +8,7 @@
                 "calling": "61",
                 "sanctioned": false,
                 "regionCode": "OP",
-                "subdivisions": [
-                    {
+                "subdivisions": [{
                         "code": "AU-ACT",
                         "name": "Australian Capital Territory"
                     },
@@ -46,13 +44,11 @@
                 "callingCode": "AU+61"
             },
             {
-                "languages": [
-                    {
-                        "code": "fr_CA",
-                        "name": "French(CA)",
-                        "cntrycode": "CA"
-                    }
-                ],
+                "languages": [{
+                    "code": "fr_CA",
+                    "name": "French(CA)",
+                    "cntrycode": "CA"
+                }],
                 "name": "Canada",
                 "alpha2": "CA",
                 "alpha3": "CAN",
@@ -60,8 +56,7 @@
                 "calling": "1",
                 "sanctioned": false,
                 "regionCode": "NA",
-                "subdivisions": [
-                    {
+                "subdivisions": [{
                         "code": "CA-AB",
                         "name": "Alberta"
                     },
@@ -137,13 +132,11 @@
                 "callingCode": "DE+49"
             },
             {
-                "languages": [
-                    {
-                        "code": "zh_HK",
-                        "name": "Chinese(HK)",
-                        "cntrycode": "HK"
-                    }
-                ],
+                "languages": [{
+                    "code": "zh_HK",
+                    "name": "Chinese(HK)",
+                    "cntrycode": "HK"
+                }],
                 "name": "Hong Kong",
                 "alpha2": "HK",
                 "alpha3": "HKG",
@@ -164,13 +157,11 @@
                 "callingCode": "IN+91"
             },
             {
-                "languages": [
-                    {
-                        "code": "jp_JP",
-                        "name": "Japanese(JP)",
-                        "cntrycode": "JP"
-                    }
-                ],
+                "languages": [{
+                    "code": "jp_JP",
+                    "name": "Japanese(JP)",
+                    "cntrycode": "JP"
+                }],
                 "name": "Japan",
                 "alpha2": "JP",
                 "alpha3": "JPN",
@@ -178,8 +169,7 @@
                 "calling": "81",
                 "sanctioned": false,
                 "regionCode": "AI",
-                "subdivisions": [
-                    {
+                "subdivisions": [{
                         "code": "JP-23",
                         "name": "Aichi"
                     },
@@ -381,13 +371,11 @@
                 "callingCode": "MY+60"
             },
             {
-                "languages": [
-                    {
-                        "code": "es_MX",
-                        "name": "Spanish(MX)",
-                        "cntrycode": "MX"
-                    }
-                ],
+                "languages": [{
+                    "code": "es_MX",
+                    "name": "Spanish(MX)",
+                    "cntrycode": "MX"
+                }],
                 "name": "Mexico",
                 "alpha2": "MX",
                 "alpha3": "MEX",
@@ -405,8 +393,7 @@
                 "calling": "44",
                 "sanctioned": false,
                 "regionCode": "EM",
-                "subdivisions": [
-                    {
+                "subdivisions": [{
                         "code": "GB-ABE",
                         "name": "Aberdeen City"
                     },
@@ -1058,13 +1045,11 @@
                 "callingCode": "GB+44"
             },
             {
-                "languages": [
-                    {
-                        "code": "en_US",
-                        "name": "English(US)",
-                        "cntrycode": "US"
-                    }
-                ],
+                "languages": [{
+                    "code": "en_US",
+                    "name": "English(US)",
+                    "cntrycode": "US"
+                }],
                 "name": "United States Of America",
                 "alpha2": "US",
                 "alpha3": "USA",
@@ -1072,8 +1057,7 @@
                 "calling": "1",
                 "sanctioned": false,
                 "regionCode": "NA",
-                "subdivisions": [
-                    {
+                "subdivisions": [{
                         "code": "US-AL",
                         "name": "Alabama"
                     },
@@ -1307,8 +1291,7 @@
         ]
     },
     "languages": {
-        "languages": [
-            {
+        "languages": [{
                 "code": "zh_CN",
                 "name": "Chinese(CN)",
                 "cntrycode": "CN"
@@ -1346,12 +1329,10 @@
         ]
     },
     "regions": {
-        "regions": [
-            {
+        "regions": [{
                 "code": "A",
                 "name": "Africa",
-                "countries": [
-                    {
+                "countries": [{
                         "name": "Egypt",
                         "alpha2": "EG",
                         "alpha3": "EGY",
@@ -1386,15 +1367,12 @@
             {
                 "code": "AI",
                 "name": "Asia and Indian Subcontinent",
-                "countries": [
-                    {
-                        "languages": [
-                            {
-                                "code": "zh_HK",
-                                "name": "Chinese(HK)",
-                                "cntrycode": "HK"
-                            }
-                        ],
+                "countries": [{
+                        "languages": [{
+                            "code": "zh_HK",
+                            "name": "Chinese(HK)",
+                            "cntrycode": "HK"
+                        }],
                         "name": "Hong Kong",
                         "alpha2": "HK",
                         "alpha3": "HKG",
@@ -1415,13 +1393,11 @@
                         "callingCode": "IN+91"
                     },
                     {
-                        "languages": [
-                            {
-                                "code": "jp_JP",
-                                "name": "Japanese(JP)",
-                                "cntrycode": "JP"
-                            }
-                        ],
+                        "languages": [{
+                            "code": "jp_JP",
+                            "name": "Japanese(JP)",
+                            "cntrycode": "JP"
+                        }],
                         "name": "Japan",
                         "alpha2": "JP",
                         "alpha3": "JPN",
@@ -1429,8 +1405,7 @@
                         "calling": "81",
                         "sanctioned": false,
                         "regionCode": "AI",
-                        "subdivisions": [
-                            {
+                        "subdivisions": [{
                                 "code": "JP-23",
                                 "name": "Aichi"
                             },
@@ -1636,24 +1611,21 @@
             {
                 "code": "CA",
                 "name": "Central America and Caribbean",
-                "countries": [
-                    {
-                        "name": "Bahamas",
-                        "alpha2": "BS",
-                        "alpha3": "BHS",
-                        "numeric": 44,
-                        "calling": "242",
-                        "sanctioned": false,
-                        "regionCode": "CA",
-                        "callingCode": "BS+242"
-                    }
-                ]
+                "countries": [{
+                    "name": "Bahamas",
+                    "alpha2": "BS",
+                    "alpha3": "BHS",
+                    "numeric": 44,
+                    "calling": "242",
+                    "sanctioned": false,
+                    "regionCode": "CA",
+                    "callingCode": "BS+242"
+                }]
             },
             {
                 "code": "EM",
                 "name": "Europe and Middle East",
-                "countries": [
-                    {
+                "countries": [{
                         "name": "France",
                         "alpha2": "FR",
                         "alpha3": "FRA",
@@ -1731,8 +1703,7 @@
                         "calling": "44",
                         "sanctioned": false,
                         "regionCode": "EM",
-                        "subdivisions": [
-                            {
+                        "subdivisions": [{
                                 "code": "GB-ABE",
                                 "name": "Aberdeen City"
                             },
@@ -2388,15 +2359,12 @@
             {
                 "code": "NA",
                 "name": "North America",
-                "countries": [
-                    {
-                        "languages": [
-                            {
-                                "code": "fr_CA",
-                                "name": "French(CA)",
-                                "cntrycode": "CA"
-                            }
-                        ],
+                "countries": [{
+                        "languages": [{
+                            "code": "fr_CA",
+                            "name": "French(CA)",
+                            "cntrycode": "CA"
+                        }],
                         "name": "Canada",
                         "alpha2": "CA",
                         "alpha3": "CAN",
@@ -2404,8 +2372,7 @@
                         "calling": "1",
                         "sanctioned": false,
                         "regionCode": "NA",
-                        "subdivisions": [
-                            {
+                        "subdivisions": [{
                                 "code": "CA-AB",
                                 "name": "Alberta"
                             },
@@ -2461,13 +2428,11 @@
                         "callingCode": "CA+1"
                     },
                     {
-                        "languages": [
-                            {
-                                "code": "es_MX",
-                                "name": "Spanish(MX)",
-                                "cntrycode": "MX"
-                            }
-                        ],
+                        "languages": [{
+                            "code": "es_MX",
+                            "name": "Spanish(MX)",
+                            "cntrycode": "MX"
+                        }],
                         "name": "Mexico",
                         "alpha2": "MX",
                         "alpha3": "MEX",
@@ -2478,13 +2443,11 @@
                         "callingCode": "MX+52"
                     },
                     {
-                        "languages": [
-                            {
-                                "code": "en_US",
-                                "name": "English(US)",
-                                "cntrycode": "US"
-                            }
-                        ],
+                        "languages": [{
+                            "code": "en_US",
+                            "name": "English(US)",
+                            "cntrycode": "US"
+                        }],
                         "name": "United States Of America",
                         "alpha2": "US",
                         "alpha3": "USA",
@@ -2492,8 +2455,7 @@
                         "calling": "1",
                         "sanctioned": false,
                         "regionCode": "NA",
-                        "subdivisions": [
-                            {
+                        "subdivisions": [{
                                 "code": "US-AL",
                                 "name": "Alabama"
                             },
@@ -2729,8 +2691,7 @@
             {
                 "code": "OP",
                 "name": "Oceania and Pacific",
-                "countries": [
-                    {
+                "countries": [{
                         "name": "Australia",
                         "alpha2": "AU",
                         "alpha3": "AUS",
@@ -2738,8 +2699,7 @@
                         "calling": "61",
                         "sanctioned": false,
                         "regionCode": "OP",
-                        "subdivisions": [
-                            {
+                        "subdivisions": [{
                                 "code": "AU-ACT",
                                 "name": "Australian Capital Territory"
                             },
@@ -2789,15 +2749,12 @@
             {
                 "code": "SA",
                 "name": "South America",
-                "countries": [
-                    {
-                        "languages": [
-                            {
-                                "code": "pt_BR",
-                                "name": "Portuguese(BR)",
-                                "cntrycode": "BR"
-                            }
-                        ],
+                "countries": [{
+                        "languages": [{
+                            "code": "pt_BR",
+                            "name": "Portuguese(BR)",
+                            "cntrycode": "BR"
+                        }],
                         "name": "Brazil",
                         "alpha2": "BR",
                         "alpha3": "BRA",
@@ -2822,8 +2779,7 @@
         ]
     },
     "currencies": {
-        "currencies": [
-            {
+        "currencies": [{
                 "alphaTwoCode": "AF",
                 "code": "AFA",
                 "name": "Afghani",

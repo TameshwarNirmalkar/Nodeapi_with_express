@@ -1,7 +1,6 @@
 {
     "org2": {
-        "developers": [
-            {
+        "developers": [{
                 "dzUserId": "kbryantdev",
                 "dzEmail": "noahmateendev+stage1dev@gmail.com",
                 "dzFirstName": "kbryantdev",
@@ -18,8 +17,7 @@
                         "dzUserId": "kbryantdev"
                     }
                 },
-                "developerKey": [
-                    {
+                "developerKey": [{
                         "keyId": "414d537676752b56644d36486c587773596a682f54594d3d",
                         "expired": false,
                         "developerZoneUserId": "kbryantdev",
@@ -68,15 +66,13 @@
                         "dzUserId": "n1noastagedev"
                     }
                 },
-                "developerKey": [
-                    {
-                        "keyId": "4461493038666242654b4237646e69395779507372673d3d",
-                        "expired": false,
-                        "developerZoneUserId": "n1noastagedev",
-                        "alias": "Sandbox Test 1",
-                        "expiry": 1484892000000
-                    }
-                ]
+                "developerKey": [{
+                    "keyId": "4461493038666242654b4237646e69395779507372673d3d",
+                    "expired": false,
+                    "developerZoneUserId": "n1noastagedev",
+                    "alias": "Sandbox Test 1",
+                    "expiry": 1484892000000
+                }]
             }
         ]
     }

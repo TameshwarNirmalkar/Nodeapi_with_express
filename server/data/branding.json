@@ -1,8 +1,7 @@
 {
     "brands": {
         "org2": {
-            "brands": [
-                {
+            "brands": [{
                     "logo": {
                         "ref": "http://purenintendo.com/wp-content/uploads/2014/11/nintendo-logo.jpg"
                     },
@@ -44,43 +43,39 @@
             ]
         },
         "childOrgA": {
-            "brands": [
-                {
-                    "logo": {
-                        "ref": "https://i.pinimg.com/736x/85/0b/d3/850bd3e6e82be4f4208b0ba99edeb96b--free-company-logo-logo-communication.jpg"
-                    },
-                    "displayName": "McDonalds, Inc.",
-                    "alias": "McDonalds",
-                    "description": "Billions and Billions Served",
-                    "brandingCode": "e953138fcfee46d89ba3197047248b86",
-                    "brandingStatus": "PRODUCTION_SANDBOX",
-                    "sandboxCallbackUrl": "llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogochuchaf.org.uk",
-                    "productionCallbackUrl": "productionCallback1",
-                    "channelCode": "IOS"
-                }
-            ]
+            "brands": [{
+                "logo": {
+                    "ref": "https://i.pinimg.com/736x/85/0b/d3/850bd3e6e82be4f4208b0ba99edeb96b--free-company-logo-logo-communication.jpg"
+                },
+                "displayName": "McDonalds, Inc.",
+                "alias": "McDonalds",
+                "description": "Billions and Billions Served",
+                "brandingCode": "e953138fcfee46d89ba3197047248b86",
+                "brandingStatus": "PRODUCTION_SANDBOX",
+                "sandboxCallbackUrl": "llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogochuchaf.org.uk",
+                "productionCallbackUrl": "productionCallback1",
+                "channelCode": "IOS"
+            }]
         }
     },
-    "channels": [
-            {
-                "channelCode": "WEB",
-                "channelDescription": "Web channel",
-                "defaultChannelSwitch": false
-            },
-            {
-                "channelCode": "IOS",
-                "channelDescription": "iOS devices",
-                "defaultChannelSwitch": false
-            },
-            {
-                "channelCode": "ANDROID",
-                "channelDescription": "Google Android devices",
-                "defaultChannelSwitch": false
-            }
+    "channels": [{
+            "channelCode": "WEB",
+            "channelDescription": "Web channel",
+            "defaultChannelSwitch": false
+        },
+        {
+            "channelCode": "IOS",
+            "channelDescription": "iOS devices",
+            "defaultChannelSwitch": false
+        },
+        {
+            "channelCode": "ANDROID",
+            "channelDescription": "Google Android devices",
+            "defaultChannelSwitch": false
+        }
     ],
     "originUrls": {
-        "originUrls": [
-            {
+        "originUrls": [{
                 "originUrlId": "8a1d0157588cd8c00158922014ef0000",
                 "originUrlAddress": "http://www.bestbuy.com",
                 "orgId": "org2"

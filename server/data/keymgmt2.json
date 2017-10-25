@@ -1,5 +1,4 @@
-[
-    {
+[{
         "keyId": "KEY00000000000000000000000000000000000",
         "alias": "defaultSandboxKey",
         "environment": "SANDBOX",

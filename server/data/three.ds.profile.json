@@ -93,18 +93,15 @@
                 "passwordProvided": false
             }]
         },
-        "advancedCheckouts": [
-            {
-                "orgId": "org2",
-                "cardBrandType": "VISA",
-                "advancedCheckoutEnabled": true
-            }
-        ]
+        "advancedCheckouts": [{
+            "orgId": "org2",
+            "cardBrandType": "VISA",
+            "advancedCheckoutEnabled": true
+        }]
     },
     "org2_MAESTRO_TEST": {
         "acquirerRelationships": {
-            "acquirerRelationships": [
-                {
+            "acquirerRelationships": [{
                     "merchantAcqCode": "3114c7fb754f470ab26a36dafe895835",
                     "status": {
                         "status": "ACTIVE"
@@ -113,11 +110,9 @@
                     "unknownAcqFlag": false,
                     "acquirerId": "465737",
                     "paymentBrandCode": "VISA",
-                    "currencyCodes": [
-                        {
-                            "currencyCode": "DFT"
-                        }
-                    ],
+                    "currencyCodes": [{
+                        "currencyCode": "DFT"
+                    }],
                     "readonly": false,
                     "updateHistory": null,
                     "passwordProvided": false
@@ -131,19 +126,16 @@
                     "unknownAcqFlag": false,
                     "acquirerId": "465737",
                     "paymentBrandCode": "MAESTRO",
-                    "currencyCodes": [
-                        {
-                            "currencyCode": "AFA"
-                        }
-                    ],
+                    "currencyCodes": [{
+                        "currencyCode": "AFA"
+                    }],
                     "readonly": false,
                     "updateHistory": null,
                     "passwordProvided": false
                 }
             ]
         },
-        "advancedCheckouts": [
-            {
+        "advancedCheckouts": [{
                 "orgId": "71e64a8d45ef4f069758077831c92b9c",
                 "cardBrandType": "MAESTRO",
                 "advancedCheckoutEnabled": true
