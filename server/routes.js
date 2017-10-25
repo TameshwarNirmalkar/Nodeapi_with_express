@@ -1,6 +1,3 @@
-/**
- * Created by e062110 on 6/17/16.
- */
 const router = require('express').Router();
 const four0four = require('./utils/404')();
 const fs = require('file-system');
