@@ -1,10 +1,14 @@
-/**
- * Created by e062110 on 6/17/16.
- */
 const router = require('express').Router();
 const statusCode = require('../utils/helpers.js').statusCodes;
 const log = require('../utils/helpers.js').logRequest;
-//const _ = require('lodash');
+const request = require('request');
+var rp = require('request-promise');
+// const bodyParser = require('body-parser');
+const Promise = require('bluebird');
+// const PromiseInstance = Promise.promisify();
+// const blueBirdPromiseAll = Promise.all;
+const _ = require('lodash');
+const APP_CONSTANT = require('../config/constant.js');
 
 ///////////
 // Debug //
@@ -14,20 +18,43 @@ const debug = 'true'; // Enable to show requests data in debug console
 //////////
 // Data //
 //////////
-const business = require('../data/business.json');
+// const business = require('../data/business.json');
 
-// Todo: Move to its own end-point
 router.get('/business/v0/business/customerRanges', function (req, res) {
-    if(debug) log(req);
-
-    res.status(statusCode.OK).send(business.customerRanges);
+    if (debug) log(req);
+    // request({
+    //     method: 'GET',
+    //     uri: APP_CONSTANT.JSON_SERVER_ADDRESS + '/customerRanges',
+    //     headers: APP_CONSTANT.HEADERS
+    // }, function (error, response, body) {
+    //     if (!error && response.statusCode == 200) {
+    //         res.status(statusCode.OK).send(JSON.parse(body));
+    //     } else {
+    //         res.status(statusCode.InternalServerError).send("Internal Server Error", error);
+    //     }
+    // })
+    rp(APP_CONSTANT.JSON_SERVER_ADDRESS + '/customerRanges').then(
+        (response) => res.status(statusCode.OK).send( JSON.parse(response) )
+    )    
 });
 
-// Returns R4 data currently
 router.get('/business/v0/business/categories', function (req, res) {
-    if(debug) log(req);
-
-    res.status(statusCode.OK).send(business.categories);
+    if (debug) log(req);
+    // res.status(statusCode.OK).send(business.categories);
+    // request({
+    //     method: 'GET',
+    //     uri: APP_CONSTANT.JSON_SERVER_ADDRESS + '/categories',
+    //     headers: APP_CONSTANT.HEADERS
+    // }, function (error, response, body) {
+    //     if (!error && response.statusCode == 200) {
+    //         res.status(statusCode.OK).send(JSON.parse(body));
+    //     } else {
+    //         res.status(statusCode.InternalServerError).send("Internal Server Error", error);
+    //     }
+    // })
+    rp(APP_CONSTANT.JSON_SERVER_ADDRESS + '/categories').then( 
+        (response) => res.status(statusCode.OK).send(JSON.parse(response))
+    );
 });
 
 module.exports = router;
