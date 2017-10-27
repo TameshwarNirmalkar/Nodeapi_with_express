@@ -53,8 +53,10 @@ router.get('/business/v0/business/categories', function (req, res) {
     //     }
     // })
     rp(APP_CONSTANT.JSON_SERVER_ADDRESS + '/categories').then( 
-        (response) => res.status(statusCode.OK).send(JSON.parse(response))
-    );
+        (rs) => res.status(statusCode.OK).send(JSON.parse(rs))
+    ).catch(function (err) {
+        (er) => res.status(er.code).send(JSON.parse(er))
+    });
 });
 
 module.exports = router;
