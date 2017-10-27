@@ -13,5 +13,4 @@ dist.zip
 /builds
 client/styles/css/main.css
 client/styles/css/main.css.map
-.vscode
 settings.json
