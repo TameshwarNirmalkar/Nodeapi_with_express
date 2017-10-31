@@ -1,3 +1,6 @@
+const request = require('request');
+const Promise = require('bluebird');
+
 const statusCodes = {
     OK: 200,
     Created: 201,
@@ -42,4 +45,13 @@ exports.logRequest = function(req) {
     if(Object.keys(req.query).length > 0) console.log('Request - Query', req.query);
     if(Object.keys(req.body).length > 0) console.log('Request - Body', req.body);
     /*eslint-enable */
+}
+
+exports.requestAsync = function(url) {
+    return new Promise(function(resolve, reject) {
+        request(url, function(err, res, body) {
+            if (err) { return reject(err); }
+            return resolve(res);
+        });
+    });
 }

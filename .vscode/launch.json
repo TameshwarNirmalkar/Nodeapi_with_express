@@ -13,7 +13,7 @@
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": null,
-            "runtimeExecutable": "node",
+            // "runtimeExecutable": "node", // this stop run on offline mode
             "runtimeArgs": [
                 "--nolazy"
             ],
