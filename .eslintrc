@@ -1,0 +1,43 @@
+{
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "protractor": true,
+      "jquery": true,
+      "jasmine": true,
+      "es6": true,
+      "node": true
+    },
+    "globals": {
+      "_": true,
+      "angular": false,
+      "module": false,
+      "inject": false,
+      "forge": false,
+      "moment": false,
+      "saveAs": false,
+      "XRegExp": false,
+      "localizationSpecHelper": false,
+      "isTesting": false
+    },
+    "extends": ["eslint:recommended", "plugin:angular/johnpapa"],
+    "rules": {
+      // "require-jsdoc": "error", // enable once we've jsdoc'ed everything
+      "no-mixed-spaces-and-tabs": 0,
+      "no-use-before-define": 0,
+      // Angular Best Practices that we're not fully compliant with
+      // Should be turned on once we fix these errors
+      "angular/file-name": 0, // require and specify a consistent component name pattern
+      "angular/controller-name": 0, // require and specify a prefix for all controller names
+      "angular/service-name": 0, // require and specify a prefix for all service names
+      "angular/function-type": 0, // require and specify a consistent function style for components ('named' or 'anonymous')
+  
+      "no-console": 1
+    }
+  }
+  
