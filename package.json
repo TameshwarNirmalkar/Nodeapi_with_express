@@ -14,7 +14,7 @@
     "serve:dist": "node_modules/.bin/ gulp serve:dist",
     "test": "node_modules/.bin/ gulp test",
     "expser": "nodemon server.js",
-    "json": "json-server index.js -p 3006 -r routes.json -w db.json"
+    "json": "json-server forrester.index.js -p 3006 -r forrester.routes.json -w db.json"
   },
   "author": "",
   "license": "ISC",
