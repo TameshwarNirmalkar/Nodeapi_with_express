@@ -1,5 +1,6 @@
 {
     "/api/": "/",
     "feedbacks": "/feedbacks",
-    "forrester/brands/:id": "/feedbacks/:id"
+    "forrester/brands/:id": "/feedbacks/:id",
+    "forrester/BType": "/Items"
 }
